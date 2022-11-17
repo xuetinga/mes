@@ -1,0 +1,19 @@
+<!--index.wxml-->
+
+  <view>
+  <form bindsubmit="bindFormSubmit">
+    <view class="bg-white margin padding shadow">
+        <input name='input' type='text' placeholder="请输入手机号" class="bg-white" />
+
+    </view>
+    <view class="bg-white margin padding shadow ">
+        <textarea  name="textarea" placeholder="短信内容" class="bg-white"/>
+
+    </view>
+    <view class="bg-white margin ">
+        <button form-type="submit"> 发送</button>
+
+    </view>
+  </form>
+</view>
+
